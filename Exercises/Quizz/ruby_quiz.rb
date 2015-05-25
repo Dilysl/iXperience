@@ -16,7 +16,7 @@ class Fish
   end
 
   def get_speed
-    if @speed < 20
+    if @speed > 20
       puts "This fish swims super fast"
     else
       puts "This fish is kinda slow"
@@ -50,6 +50,8 @@ end
 
 nemo = Fish.new("orange", "Nemo", 10)
 
+puts nemo.get_speed
+
 dory = Fish.new("blue","Dory", 25)
 
 blub = Fish.new("red", "Blub", 5)
@@ -69,7 +71,7 @@ array = [nemo, dory, blub]
 
 bruce.binge_eat(array)
 
-bruce.what_i_ate
+puts bruce.what_i_ate
 
 
 
