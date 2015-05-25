@@ -1,0 +1,62 @@
+head {}
+body {
+	margin: 0 auto;
+	text-align: left;
+	padding:50px;
+	color: rgba(225,225,225,.95);
+	background: url(http://www.tanteam.com/wp-content/uploads/2013/07/Colorful-air-bubble-air-bladder-027.jpg);
+	background-repeat: no-repeat;
+	max-width: 700px;
+	
+}
+.left{
+	color: rgba(195,241,255,.85);
+}
+button{
+	margin-right:20px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: rgba(255,0,129,.8);
+	display:inline;
+	float:right;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	max-height: 20px;
+	color: #ffd1ea;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	padding:0 10px 0 0;
+		
+	
+}
+p {
+	font-family: Arial;
+	font-size: 20px;
+	color: rgba(255,0,129,.8);
+}
+h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	
+}
+h3 {
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	
+}
+img{
+	max-width: 400px;
+	max-height: 300px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+
