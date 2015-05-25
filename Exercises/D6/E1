@@ -1,0 +1,51 @@
+D6A
+
+E1: Git Review
+
+1. Initiates git on the flder you are currently in
+
+2. It adds the file into the git stage file while git commit saves the file into your local repository.
+
+3. Staged files are files you are currently working in and you replace them every thime you save it to stage. The committed files are files that are saved and will be saved under a different 'description' you give them every time you save it. So it doesn't replace files and has all the files. 
+
+4. git add . 
+
+5. git checkout -- <filename>
+
+6. it saves all your older versions. So when you made a mistake in a file that you staged, the committed file is still available. 
+
+7. Git reset
+
+8. Esc
+
+E2: Github
+
+1. Github is your access to your online repository. Git could exist without it I guess since it is just a tool to share your code with other people. Github couldn't exist without Git though.. Because Github is an online repository(copy) of your own computer git repository.
+
+2. Because you can interact with other developpers online and people can share code/ comment/ discuss etc. 
+
+3. Git push uploads your local repository to your remote repository.
+
+4. Git pull pulls your files from your remote repository back o your working directory
+
+D6B
+
+E1: So whats going on?
+
+The client(browser) sends a request(example: www.google.com) to the domain name server to request the IP address of the domain name. The DNS returns this IP address back to the browser which sends the IP address' HTTP request to the server. 
+The server gets the HTTP request and send the parameters of the HTTP (of the IP address) to the right application. 
+The application transforms this parameter request from the server into the application and returns reformed HTTP back to the server. 
+The server returns this back to the client. And now the client can see the website. 
+
+E2: Ruby Rocks
+
+1. 404
+	'There isn't a Github pages site here'
+
+2. It means that this domain is still free.. the DNS couldn't find a responsive IP address which means there is no one using this URL.
+
+3. The client was able to communicate with the server but the server couldn't find the requested HTTP information. 
+
+4. No, it just means that there wasn't any HTTP information for this route..?!
+
+
