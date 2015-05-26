@@ -1,6 +1,23 @@
-# cart.rb
+class Item
+  
+  attr_accessor :name, :price
+  def initialize(name, price)
+    @name = name
+    @price = price
+  end
 
-class Cart
+
+  def name
+    "#{@name}"
+
+  end
+
+  def price
+    "#{@price_to.f}"
+  end
+end
+
+class Cart < Item
   def initialize
     @items = items
   end

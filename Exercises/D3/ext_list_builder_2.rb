@@ -8,16 +8,15 @@ puts "What can I do for you?"
 				
 			while index >=1
 				if list.include?(add)
+					puts "Added! Your list is:"
 					list.each  do |list|
-						puts "Added! Your list is:", list.delete(0)
-					end
+					puts list.delete(0)
 
 				elsif input.include?(remove)
+		  		puts "Removed! Your list is:"
 		  		list.each  do |list|
-		  			puts "Removed! Your list is:", list.delete(0,1)
-		  			end
-		  		else
-
+		  		array_del = array.delete(array[1])
+					
 			end
 		end
 

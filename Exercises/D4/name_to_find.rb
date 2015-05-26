@@ -1,19 +1,11 @@
-class Name
-
-	people = [{}]
-
-def initialize (first_name, last_name)
-	@first_name = first_name
-	@last_name = last_name
-end
-
-def find_by_name
-	puts "#{@first_name} #{@last_name}"
-end
-end
-
-
-
-
-
 			
+def find_by_name(people, name)
+	found_person = nil
+	people.each do |person|
+		if person[:name] == name
+			found_person = person
+			break
+		end
+	end
+	found_person
+end
